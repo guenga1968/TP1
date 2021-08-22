@@ -1,1 +1,58 @@
 /*mi estilo para trabajo 1*/
+header {
+    display: block;
+    padding: 10px;
+    margin-top: 0vw;
+    background-color: cornflowerblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: cornsilk;
+    padding: 10px;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 10px 40px;
+    color: darkslategrey;
+}
+p {
+    font-size: 1.2em;
+    margin: 20px;
+}
+a {
+    display: inline-block;
+    background-color: cornsilk;
+    color: darkslateblue;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+.proyecto {
+
+    background-color:cornflowerblue;
+    color: floralwhite;
+    margin: 0px 200px;
+
+}
+.imgproyecto {
+    height: 400px;
+    margin: 0px 200px;
+}
+footer {
+    display: block;
+    
+    background-color: cornflowerblue;
+    
+   
+
+}
+footer a {
+    
+    margin: 10px;
+}
+.derechos {
+    text-align: center;
+    color: cornsilk;
+    font-size: 1em;
