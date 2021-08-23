@@ -7,23 +7,28 @@ header {
 }
 
 h1 {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 600;
     text-align: center;
     font-size: 2em;
     color: whitesmoke;
     padding: 10px;
 }
 h2 {
+    font-family: 'Monserrat',sans-serif;
     font-size: 1.5em;
     margin: 10px 40px;
     color: dimgray;
 }
 p {
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     margin: 20px;
     text-align: justify;
     color: dimgrey;
 }
 a {
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
     background-color: cornsilk;
     color: darkslateblue;
@@ -57,7 +62,12 @@ footer a {
     margin: 5px;
 }
 .derechos {
+    font-family: 'Monserrat', sans-serif;
     text-align: center;
     color: white;
     font-size: 1em;
+}
+
+form {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
