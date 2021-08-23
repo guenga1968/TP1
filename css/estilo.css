@@ -2,10 +2,11 @@
 header {
     
     padding: 10px;
-    margin-top: 0vw;
     background-color: cornflowerblue;
 }
-
+nav {
+    margin-top: 10px;
+}
 h1 {
     font-family: 'Monserrat', sans-serif;
     font-weight: 600;
@@ -53,6 +54,7 @@ a {
     background-color: cornsilk;
     color: darkslateblue;
     border-radius: 4px;
+    margin-left: 5px;
     padding: 5px;
     text-decoration: none;
 }
@@ -133,7 +135,7 @@ form h2 {
 }
 form p {
     margin-top: 5px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 .advertencia {
     font-size: small;
