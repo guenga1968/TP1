@@ -1,6 +1,6 @@
 /*mi estilo para trabajo 1*/
 header {
-    display: block;
+    
     padding: 10px;
     margin-top: 0vw;
     background-color: cornflowerblue;
@@ -17,19 +17,39 @@ h1 {
 h2 {
     font-family: 'Monserrat',sans-serif;
     font-size: 1.5em;
-    margin: 10px 40px;
+    margin: 10px 40px 5px;
     color: dimgray;
 }
+h4 {
+    font-family: 'Monserrat',sans-serif;
+    font-size: large;
+    margin-left: 40px;
+    color: dimgray;
+}
+table {
+    font-family: 'Roboto',sans-serif;
+    color: grey;
+    margin-left: 50px;
+}
+
+ul {
+    margin-left: 40px;
+    font-family: 'Roboto',sans-serif;
+    color: grey;
+}
+
 p {
+    text-indent: 1cm;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    margin: 20px;
+    margin-left: 25px;
+    margin-right: 30px;
     text-align: justify;
     color: dimgrey;
 }
+
 a {
     font-family: 'Roboto', sans-serif;
-    display: inline-block;
     background-color: cornsilk;
     color: darkslateblue;
     border-radius: 4px;
@@ -37,29 +57,40 @@ a {
     text-decoration: none;
 }
 .proyecto {
-
+    display: inline-block;
     background-color:cornflowerblue;
     color: floralwhite;
-    margin: 0px 200px;
-
+   margin-left: 40px;
+   margin-bottom: 40px;
+}
+img {
+    float: left;
+    height: 300px;
 }
 .imgproyecto {
+    display: inline-block;
     height: 400px;
-    margin: 0px 200px;
+    margin-left: 500px;
+    float:none;
 }
+
 footer {
-    display: block;
+    display:block;
     padding-left: 40px;
     padding-top: 10px;
-    
     background-color: cornflowerblue;
-    
-   
-
 }
+
 footer a {
-    
-    margin: 5px;
+
+    padding: 0;
+    background-color: cornflowerblue;
+}
+footer img {
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    margin-right: 5px;
 }
 .derechos {
     font-family: 'Monserrat', sans-serif;
@@ -69,5 +100,45 @@ footer a {
 }
 
 form {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    display: block;
+    
+    margin: 20px;
+}
+label {
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: dimgray;
+}
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: dimgray;
+}
+[type="submit"] {
+    display: block;
+margin-left: 60%;
+padding: 5px 20px;
+font-family: 'Monserrat', sans-serif;
+font-size: larger;
+background-color: dodgerblue;
+color: floralwhite;
+}
+form h2 {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form p {
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.advertencia {
+    font-size: small;
+}
+div {
+    display: block;
+    margin: 10px 50px;
 }
