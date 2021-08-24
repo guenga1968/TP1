@@ -7,13 +7,13 @@
     text-decoration: none;
 }
 body {
-    background-color: #cae1e2;
+    background-color: rgba(202,225,226,.2);
 }
 header {
     position: relative;
     width: 1000px;
     height: 100px;
-    background-color:#047b83;
+    background-color: rgba(4,123,131,.5);
     margin: 2px auto;
     text-align: center;
     line-height: 100px;
@@ -57,7 +57,7 @@ article {
     left: 200px;
     width: 600px;
     height: 540px;
-    background: #cae1e2;
+    background: rgba(202,225,226,.5);
     text-align: center;
 }
 
@@ -126,7 +126,7 @@ aside#izq {
     left: 0px;
     width: 200px;
     height: 540px;
-    background: #84bcbc;
+    background: rgba(108,172,180,.5);
 }
 
 aside#der {
@@ -134,13 +134,13 @@ aside#der {
     right: 0;
     width: 200px;
     height: 540px;
-    background: #84bcbc;
+    background:rgba(108,172,180,.5);
 }
 footer {
     position: relative;
     width: 1000px;
     height: 60px;
-    background: #047b83;
+    background:rgba(4,123,131,.5);
     margin: 0px auto;
     text-align: center;
     line-height: 60px;
