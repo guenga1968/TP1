@@ -1,125 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-        <title>Todo Arduino</title>
-    </head>
-    
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icono/icono.ico" />
+    <link rel="stylesheet" href="css/estilo2.css">
+    <title>Todo Arduino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32d0d4af31.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</head>
 
 <body>
-    <header>
-        <div id="logo">
-            <h1>Logo</h1>
+    <nav class="menu">
+        <label class="logo">TODO ARDUINO</label>
+        <ul class="menu-items">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyecto.html">Proyectos</a></li>
+
+            <li><a href="sucursales.html">Sucursales</a></li>
+            <li><a href="registro.html">Contactanos</a></li>
+        </ul>
+        <span class="btn-menu"><i class="fa fa-bars"></i>
+        </span>
+    </nav>
+    <main>
+
+        <h1> Construye un Brazo Robótico con nosotros</h1>
+        <img id="brazo" src="imagenes/brazo1.jpg" alt="imagen brazo robótico">
+        <h2>
+            Proyecto Brazo Robótico
+        </h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at perferendis dignissimos dolore, deleniti
+            nam.
+            Consequuntur error soluta iure harum cupiditate magnam necessitatibus facere fugiat reprehenderit vitae
+            exercitationem deserunt consectetur cumque enim, perspiciatis eligendi et deleniti perferendis incidunt
+            tenetur
+            alias sint inventore. Quod doloribus ipsam, molestiae aliquam recusandae itaque veritatis praesentium,
+            dicta
+            atque veniam, neque autem voluptatem modi tempore inventore sed vel fugiat optio cum excepturi ullam
+            expedita
+            voluptatibus! </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, magnam laudantium eos odio corrupti,
+            voluptatum
+            odit, incidunt distinctio beatae quam tempora cum ipsam nam consectetur obcaecati aliquam debitis culpa
+            eius.
+        </p>
+       
+        <br>
+        <hr>
+        <br>
+        <h4>Materiales Necesarios</h4>
+        <div class="tabla">
+            <div class="tab">
+                <table>
+                    <tr>
+                        <th>Cant. </th>
+                        <th> Materiales </th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Arduino Uno</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Servo Motores</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Conectores Macho</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Batería 5v</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>kit Brazo Robítico</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="lista">
+                <h4>Pasos para la construcción</h4>
+                <ul>
+                    <li>
+                        Retire las piezas plasticas
+                    </li>
+                    <li> Arme el Kid</li>
+                    <li>Instale los Servo Motores</li>
+                    <li> Conecte la placa Arduino</li>
+                </ul>
+            </div>
         </div>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="registro.html">Registro</a>
-            <a href="sucursales.html">Sucursales</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-        <h1>Todo sobre Arduino</h1>
-    </header>
-    <section>
-        <aside id="izq">
+        <hr>
+    </main>
+    <footer class="footer">
+        <label class="logo">TODO ARDUINO</label>
+        <ul class="footer-items">
+            <li> <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instragram.com"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a></li>
+            <li> <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a></li>
 
-        </aside>
-        <article>
-            <h2> Construye un Brazo Robótico con nosotros</h2>
-            <img src="imagenes/brazo.jpg" alt="imagen brazo robótico">
-        </article>
-
-        <aside id="der"></aside>
-    </section>
-    <h2>
-        Proyecto Brazo Robótico
-    </h2>
-    <img src="imagenes/brazo.jpg" alt="Brazo Robótico"> <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas at perferendis dignissimos dolore, deleniti nam.
-        Consequuntur error soluta iure harum cupiditate magnam necessitatibus facere fugiat reprehenderit vitae
-        exercitationem deserunt consectetur cumque enim, perspiciatis eligendi et deleniti perferendis incidunt tenetur
-        alias sint inventore. Quod doloribus ipsam, molestiae aliquam recusandae itaque veritatis praesentium, dicta
-        atque veniam, neque autem voluptatem modi tempore inventore sed vel fugiat optio cum excepturi ullam expedita
-        voluptatibus! </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, magnam laudantium eos odio corrupti, voluptatum
-        odit, incidunt distinctio beatae quam tempora cum ipsam nam consectetur obcaecati aliquam debitis culpa eius.
-    </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quaerat assumenda architecto, ex sequi ut
-        laborum nesciunt itaque et optio asperiores unde temporibus. Dignissimos itaque perspiciatis quos quae ducimus!
-        Exercitationem fuga ad beatae commodi cumque dolor accusantium atque nostrum, obcaecati adipisci quis labore
-        voluptatum, quo repellendus temporibus deserunt quidem illum inventore sunt dicta. Ea placeat odio quae totam
-        nobis laudantium, adipisci sequi porro, commodi magni beatae tempora, autem eaque voluptatem quis quasi debitis.
-        Placeat eligendi labore impedit cum at deleniti hic vero dolorum suscipit, voluptatibus ex natus tempore.
-        Tempore soluta quia, facilis cum alias cupiditate exercitationem quae nemo, obcaecati natus consectetur
-        laboriosam qui sunt nisi accusamus nostrum ducimus dolores odit iste officia, ullam quidem repellendus
-        necessitatibus possimus! Doloribus atque inventore eos eaque sint, ad vero consectetur nesciunt alias, hic
-        delectus quod? Voluptates reiciendis amet atque magni sapiente eius odio temporibus ad vero quia fugit
-        voluptatum ipsa rem quidem, ullam tenetur eos minus nam praesentium iure? Quod dolor ipsam assumenda, nam quasi
-        hic iusto aspernatur. Exercitationem, vero nisi quia cupiditate pariatur dolorum facilis eos labore eum,
-        architecto veritatis officiis! Adipisci suscipit sunt non, saepe, tenetur rerum voluptates, modi cum dolor ab
-        tempore voluptatum voluptatibus nemo. Veritatis quisquam consequuntur perferendis illo rem.</p>
-
-    <h4>Materiales Necesarios</h4>
-
-    <table>
-        <tr>
-            <th>Cant. </th>
-            <th> Materiales </th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Arduino Uno</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Servo Motores</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Conectores Macho</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Batería 5v</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>kit Brazo Robítico</td>
-        </tr>
-
-    </table>
-    <br>
-    <h4>Pasos para la construcción</h4>
-    <ul>
-        <li>
-            Retire las piezas plasticas
-        </li>
-        <li> Arme el Kid</li>
-        <li>Instale los Servo Motores</li>
-        <li> Conecte la placa Arduino</li>
-
-
-    </ul>
-    <br>
-    <footer>
-        <div>
-            <a href="https://www.facebook.com"><img src="imagenes/facebook.png" alt="icono facebook"></a>
-            <a href="https://www.instragram.com"><img src="imagenes/instagram.png" alt="icono instagram"></a>
-            <a href="https://www.youtube.com"><img src="imagenes/youtube.png" alt="icono youtube"></a>
-            <a href="https://www.twitter.com"><img src="imagenes/twitter.png" alt="icono twitter"></a>
-        </div>
-        <h4>
-            Todos los Derechos Reservados &copy;
-        </h4>
-
+        </ul>
     </footer>
 </body>
 

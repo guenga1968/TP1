@@ -1,88 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-        <title>Todo Arduino</title>
-    </head>
-    
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icono/icono.ico" />
+    <link rel="stylesheet" href="css/estilo2.css">
+    <title>Todo Arduino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+      <script src="https://kit.fontawesome.com/32d0d4af31.js" crossorigin="anonymous"></script>
+      <script src="js/app.js"></script>
+</head>
 
 <body>
-    <header>
-        <div id="logo">
-            <h1>Logo</h1>
-        </div>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="registro.html">Registro</a>
-            <a href="sucursales.html">Sucursales</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-        <h1>Todo sobre Arduino</h1>
-    </header>
-    <section>
-        <aside id="izq">
+    <nav class="menu">
+        <label class="logo">TODO ARDUINO</label>
+        <ul class="menu-items">
+            <li ><a href="index.html">Inicio</a></li>
+            <li><a href="proyecto.html">Proyectos</a></li>
+            
+            <li><a href="sucursales.html">Sucursales</a></li>
+            <li><a href="registro.html">Contactanos</a></li>
+        </ul>
+        <span class="btn-menu"><i class="fa fa-bars"></i>
+        </span>
+    </nav>
+    <main >
+  
+            <h1>Sucursales</h1>
 
-        </aside>
-        <article>
-            <h2>Sucursales</h2>
-    <p>CABA: <a
-            href="https://www.google.com.ar/maps/place/Balcarce+50,+C1064+CABA/@-34.6081982,-58.3724951,17z/data=!3m1!4b1!4m5!3m4!1s0x95a3352c95f0d4f5:0xee8dc0a5eb259e82!8m2!3d-34.6082026!4d-58.3703064"
-            target="_blank">
-            Balcarce 50</a></p> <br>
-    <p>Rosario: <a
-            href="https://www.google.com.ar/maps/place/Sta+Fe+545,+S2000+Rosario,+Santa+Fe/@-32.9476841,-60.6323375,17z/data=!3m1!4b1!4m5!3m4!1s0x95b7ab1dc7af460b:0xab7fa4bf530d5a44!8m2!3d-32.9476886!4d-60.6301488"
-            target="_blank">
-            Santa Fé 545</a></p> <br>
-    <p>Córdoba: <a
-            href="https://www.google.com.ar/maps/place/Av.+Marcelo+T.+de+Alvear+120,+C%C3%B3rdoba/@-31.4160589,-64.1931594,17z/data=!3m1!4b1!4m5!3m4!1s0x9432a281a306a9ef:0xa50f2f7d2e413587!8m2!3d-31.4160635!4d-64.1909707"
-            target="_blank">
-            Av. Marcelo T. de Alvear 120, Córdoba Capital</a></p> <br>
-    <p>Corrientes: <a
-            href="https://www.google.com.ar/maps/place/25+de+Mayo+1132,+W3400+Corrientes/@-27.4643799,-58.838376,17z/data=!3m1!4b1!4m5!3m4!1s0x94456ca5b89c100f:0x94a858e41d1b8fa2!8m2!3d-27.4643847!4d-58.8361873"
-            target="_blank">
-            25 de Mayo 1132, Corrientes Capital</a></p> <br>
 
-<div class="iframe">
-    <iframe id="caba"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8403573274823!2d-58.37249508484193!3d-34.60819816524213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352c95f0d4f5%3A0xee8dc0a5eb259e82!2sBalcarce%2050%2C%20C1064%20CABA!5e0!3m2!1ses-419!2sar!4v1629283915809!5m2!1ses-419!2sar"
-         allowfullscreen="" loading="lazy"> </iframe>
-    <iframe id="rosario"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.125945278964!2d-60.63233748489393!3d-32.94768407927059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab1dc7af460b%3A0xab7fa4bf530d5a44!2sSta%20Fe%20545%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1629284518078!5m2!1ses-419!2sar"
-         allowfullscreen="" loading="lazy"></iframe>
-    <iframe id="cordoba"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.930397651289!2d-64.19380590220358!3d-31.416043692046927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299b6b8b44f99%3A0x3d7b5f87c1bab213!2sMunicipalidad%20de%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1629284909088!5m2!1ses-419!2sar"
-         allowfullscreen="" loading="lazy"></iframe>
-    <iframe id="corrientes"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.1551489224075!2d-58.83826768505138!3d-27.464428823053865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ca598b7a123%3A0x5c16d156f64a8101!2sMunicipalidad%20de%20la%20Ciudad%20de%20Corrientes!5e0!3m2!1ses-419!2sar!4v1629285545307!5m2!1ses-419!2sar"
-         allowfullscreen="" loading="lazy"></iframe>
- </div>
+            <p>CABA: <a href="#caba"> Balcarce 50</a></p> <br>
+            <p>Rosario: <a href="#rosario"> Santa Fé 545</a></p> <br>
+            <p>Córdoba: <a  href="#cordoba"> Av. Marcelo T. de Alvear 120, Córdoba Capital</a></p> <br>
+            <p>Corrientes: <a href="#corrientes"> 25 de Mayo 1132, Corrientes Capital</a></p> <br>
 
-        </article>
+            <div class="iframe">
+                <iframe id="caba"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8403573274823!2d-58.37249508484193!3d-34.60819816524213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a3352c95f0d4f5%3A0xee8dc0a5eb259e82!2sBalcarce%2050%2C%20C1064%20CABA!5e0!3m2!1ses-419!2sar!4v1629283915809!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy"> </iframe>
+                <iframe id="rosario"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.125945278964!2d-60.63233748489393!3d-32.94768407927059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab1dc7af460b%3A0xab7fa4bf530d5a44!2sSta%20Fe%20545%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1629284518078!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy"></iframe>
+                <iframe id="cordoba"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.930397651289!2d-64.19380590220358!3d-31.416043692046927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299b6b8b44f99%3A0x3d7b5f87c1bab213!2sMunicipalidad%20de%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1629284909088!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy"></iframe>
+                <iframe id="corrientes"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.1551489224075!2d-58.83826768505138!3d-27.464428823053865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456ca598b7a123%3A0x5c16d156f64a8101!2sMunicipalidad%20de%20la%20Ciudad%20de%20Corrientes!5e0!3m2!1ses-419!2sar!4v1629285545307!5m2!1ses-419!2sar"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+   
+    </main>
 
-        <aside id="der"></aside>
-    </section>
-    
-<footer>
-    <div>
-        <a href="https://www.facebook.com"><img src="imagenes/facebook.png" alt="icono facebook"></a>
-        <a href="https://www.instragram.com"><img src="imagenes/instagram.png" alt="icono instagram"></a>
-        <a href="https://www.youtube.com"><img src="imagenes/youtube.png" alt="icono youtube"></a>
-        <a href="https://www.twitter.com"><img src="imagenes/twitter.png" alt="icono twitter"></a>
-    </div>
-    <h4>
-        Todos los Derechos Reservados &copy;
-    </h4>
+    <footer class="footer">
+        <label class="logo">TODO ARDUINO</label>
+        <ul class="footer-items"> 
+            <li> <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instragram.com"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a></li>
+            <li> <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a></li>
 
-</footer>
-        </body>
+        </ul>
+    </footer>
+</body>
 
 </html>

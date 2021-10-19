@@ -1,57 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="shortcut icon" href="icono/icono.ico" />
+    <link rel="stylesheet" href="css/estilo2.css">
+    <title>Todo Arduino</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-    <title>Todo Arduino</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32d0d4af31.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <h1>Logo</h1>
+    <nav class="menu">
+        <label class="logo">TODO ARDUINO</label>
+        <ul class="menu-items">
+            <li ><a href="index.html">Inicio</a></li>
+            <li><a href="proyecto.html">Proyectos</a></li>
+            
+            <li><a href="sucursales.html">Sucursales</a></li>
+            <li><a href="registro.html">Contactanos</a></li>
+        </ul>
+        <span class="btn-menu"><i class="fa fa-bars"></i>
+        </span>
+    </nav>
+
+  <main >
+        <h1> Aprende con Nosotros</h1>
+       
+        <div class="carrusel">
+          
+            <ul class="carrusel-fotos">
+                <li id="foto6"><img src="imagenes/nenas.jpg" alt="arduino"></li>
+                <li id="foto3"><img src="imagenes/nino.jpg" alt="nino"></li>
+                <li id="foto1"><img src="imagenes/brazo1.jpg" alt="brazo"></li>
+                <li id="foto2"><img src="imagenes/carro.jpg" alt="carro"></li>
+                <li id="foto5"><img src="imagenes/nena.jpg" alt="arduino"></li>
+                <li id="foto4"><img src="imagenes/arduino.png" alt="arduino"></li>
+
+            </ul>
+            <ul class="carrusel-menu">
+                <li> <a href="#foto6"><img src="imagenes/nenas.jpg" alt="nino"></a></li>
+                <li> <a href="#foto3"><img src="imagenes/nino.jpg" alt="nino"></a></li>
+                <li> <a href="#foto1"><img src="imagenes/brazo1.jpg" alt="brazo"></a></li>
+                <li> <a href="#foto2"><img src="imagenes/carro.jpg" alt="carro"></a></li>
+                <li> <a href="#foto5"><img src="imagenes/nena.jpg" alt="nino"></a></li>
+                <li> <a href="#foto4"><img src="imagenes/arduino.png" alt="arduino"></a></li>
+            </ul>
         </div>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="registro.html">Registro</a>
-            <a href="sucursales.html">Sucursales</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-        <h1>Todo sobre Arduino</h1>
-    </header>
-    <section>
-        <aside id="izq">
+        
+            <h1 class="animacion">No te pierdas nuestros cursos</h1>
+            <div class="inicio">
+                <div> <p>Lorem ipsum dolor sit amet</p></div>
+                <div> <p>Lorem ipsum dolor sit amet</p></div>
+                <div> <p>Lorem ipsum dolor sit amet</p></div>
+            </div>
+      
+    </main>
+   
+    <footer class="footer">
+        <label class="logo">TODO ARDUINO</label>
+        <ul class="footer-items"> 
+            <li> <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instragram.com"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a></li>
+            <li> <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a></li>
 
-        </aside>
-        <article>
-            <h2> Construye un Brazo Robótico con nosotros</h2>
-            <img class="imginicio" src="imagenes/brazo.jpg" alt="imagen brazo robótico">
-            <a class="proyecto" href="proyecto.html" >Ir al Proyecto</a>
-        </article>
-
-        <aside id="der"></aside>
-    </section>
-
-    <footer>
-        <div>
-            <a href="https://www.facebook.com"><img src="imagenes/facebook.png" alt="icono facebook"></a>
-            <a href="https://www.instragram.com"><img src="imagenes/instagram.png" alt="icono instagram"></a>
-            <a href="https://www.youtube.com"><img src="imagenes/youtube.png" alt="icono youtube"></a>
-            <a href="https://www.twitter.com"><img src="imagenes/twitter.png" alt="icono twitter"></a>
-        </div>
-        <h4>
-            Todos los Derechos Reservados &copy;
-        </h4>
-
+        </ul>
     </footer>
-
 </body>
 
 </html>
